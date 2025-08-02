@@ -26,7 +26,7 @@ st.title("LangChain Demo with Google Gemini")
 input_text = st.text_input("Search the topic you want")
 
 # Gemini LLM
-llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 output_parser = StrOutputParser()
 chain = prompt | llm | output_parser
 

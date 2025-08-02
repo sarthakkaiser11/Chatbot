@@ -1,26 +1,14 @@
-langchain-openai
+langchain-google-genai
 langchain-core
+langchain-openai
 langchain-community
-langchain-groq
 langchainhub
-langchain-objectbox
-langserve
 
 python-dotenv
 streamlit
-fastapi
-uvicorn
-sse-starlette
 
 beautifulsoup4
 pypdf
-PyPDF2
 sentence-transformers
-chromadb
-faiss-cpu
-groq
-cassio
 wikipedia
 arxiv
-
-langchain-google-genai
